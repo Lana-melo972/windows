@@ -68,6 +68,8 @@
 
   ## 1. *Windows 95*
 
+  ![Imagem do windows 95](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Windows_95_stacked_logo.svg/2560px-Windows_95_stacked_logo.svg.png)
+
 __Ano de lançamento__ : *1995*
 
 __Principais novidades__ :
@@ -81,6 +83,8 @@ __Principais novidades__ :
 - *Suporte a redes* : Melhor integração com redes locais (LAN) e a introdução do Internet Explorer como navegador.
 
   ## 2. *Windows XP*
+
+  ![Imagem do windows XP](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Unofficial_fan_made_Windows_XP_logo_variant.svg/1200px-Unofficial_fan_made_Windows_XP_logo_variant.svg.png)
 
 
 __Ano de lançamento__ : *2001*
@@ -99,6 +103,7 @@ __Principais novidades__ :
 
   ## 3. *Windows Vista*
 
+![Imagem do windows Vista](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Unofficial_fan_made_Windows_Vista_logo_variant.svg/800px-Unofficial_fan_made_Windows_Vista_logo_variant.svg.png)
 
 __Ano de lançamento__ : *2007*
 
@@ -116,6 +121,7 @@ __Principais novidades__ :
 
   ## 4. *Windows 7*
 
+![Imagem do windows 7](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d524f23f-503e-4d1d-8ee0-96e655258add/dhggqbu-55df7ee8-cb35-4a0a-b19c-8f0415b52e83.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q1MjRmMjNmLTUwM2UtNGQxZC04ZWUwLTk2ZTY1NTI1OGFkZFwvZGhnZ3FidS01NWRmN2VlOC1jYjM1LTRhMGEtYjE5Yy04ZjA0MTViNTJlODMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YfLkyXp967Tr7oHHM5ANy5rEJCAlnq7tRG79B0T1M9A)
 
 __Ano de lançamento__ : *2009*
 
@@ -133,6 +139,7 @@ __Principais novidades__ :
 
   ## 5. *Windows 10*
 
+![Imagem do windows 10](https://pplware.sapo.pt/wp-content/uploads/2021/04/windows_10_1.jpg)
 
 __Ano de lançamento__ : *2015*
 
@@ -149,3 +156,67 @@ __Principais novidades__ :
 - *Microsoft Edge* : Lançamento do novo navegador, Microsoft Edge, substituindo o Internet Explorer.
 
 - *Segurança aprimorada* : Novos recursos de segurança, como o Windows Hello (reconhecimento facial e de impressões digitais) e o Windows Defender com proteção melhorada contra malwares.
+
+  # Arquitetura do Windows
+
+#### *A arquitetura do Windows é composta por várias camadas interdependentes que trabalham juntas para fornecer uma experiência de uso eficiente.*
+
+ ### Componentes principais:
+
+__*Kernel*__ : O núcleo do sistema operacional, responsável pela gestão de recursos do computador, como a memória, processos e dispositivos de hardware. Ele garante a comunicação entre o software e o hardware. O Kernel pode ser dividido em duas partes:
+
+- __*Modo de Kernel*__ : Onde o sistema tem acesso total ao hardware.
+
+- __*Modo de Usuário*__ : Onde os processos do usuário são executados, com acesso restrito.
+
+__*Gerenciador de Arquivos*__ : O Windows utiliza o Sistema de Arquivos NTFS (New Technology File System) para armazenar e organizar os dados no disco. Ele também oferece funcionalidades como a proteção de dados e a criptografia de arquivos.
+
+- __*Explorer*__ : A interface gráfica que permite ao usuário navegar pelos arquivos e pastas.
+
+__*Interface Gráfica (GUI)*__ : O Windows é amplamente reconhecido por sua interface gráfica, que inclui a Área de Trabalho (Desktop), Barras de Tarefas e Menus Iniciados. Ela possibilita a interação visual do usuário com o sistema.
+
+- __*Windows Shell*__ : Camada de software que oferece o ambiente de interação com o sistema, integrando menus, janelas e comandos.
+
+__*Gerenciador de Processos*__ : Ele controla a execução de programas e serviços no Windows. O Windows Task Manager permite ao usuário visualizar e controlar processos ativos.
+
+- __*Multitarefa*__ : O Windows implementa a execução simultânea de múltiplos programas e processos, mantendo a estabilidade do sistema.
+
+ # __*5 Comandos e suas funções*__ :
+
+### __*ipconfig /all*__
+- Exibe as configurações completas da rede, como endereço IP, máscara de sub-rede e gateway.
+
+### __*dir*__
+- Lista os arquivos e pastas no diretório atual.
+
+### __*chkdsk*__
+- Verifica e corrige erros no disco rígido.
+
+### __*tasklist*__
+- Mostra uma lista dos processos atualmente em execução no sistema.
+
+### __*sfc /scannow*__
+- Verifica a integridade dos arquivos do sistema e corrige arquivos corrompidos.
+
+
+
+
+
+ # *5 curiosidades  sobre o Windows*
+ 
+ ![Imagem do windows 10](https://www.oficinadanet.com.br/imagens/post/37206/capa-windows-11-lancamento-dia-24-de-junho-onde-assistir.jpg)
+
+   ## 1- Aproximadamente 78% das pessoas no mundo usam o Windows. 
+   Exatamente isso caro leitor, o sistema operacional da Microsoft certamente domina o mercado de OS, perdendo apenas para o Android nas plataformas mobile.
+   ## 2- O Windows XP segundo a Microsoft possui cerca de 45 milhões de linhas de código.
+ Sendo um dos sistemas mais bem sucedidos da Microsoft o Windows XP certamente contava com muitas linhas de código e conseguiu deixar sua marca.
+   ## 3- O Windows 95 foi um sucesso vendendo 40 milhões de cópias em um ano.
+ Certamente foi uma grande revolução no mercado na época, colocando a Microsoft nas “paradas de sucesso”, a popularização do Windows 95 fez com que a Microsoft despontasse na frente dos concorrentes.
+   ## 4- O Windows tornou Bill Gates bilionário.
+ Bom se tornar bilionário já um feito e tanto, agora imagine o seguinte, o Windows fez de Bill o bilionário mais jovem do mundo, isso ocorreu quando ele tinha apenas 31 anos de idade.
+   ## 5- Algumas versões do Windows jamais foram lançadas. 
+ Algo extremamente normal de se acontecer durante o desenvolvimento de software, algumas versões nunca chegam ao público, no caso do Windows as versões foram, a Windows Nashville, Windows Cairo e Windows Neptune.
+
+
+ [https://techstart.xyz/windows/curiosidades-sobre-o-windows/](URL)
+
