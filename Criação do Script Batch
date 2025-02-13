@@ -1,0 +1,40 @@
+@echo off
+rem Criando um diretório chamado "meu_diretorio"
+mkdir C:\meu_diretorio
+echo Diretório "meu_diretorio" criado.
+
+rem Criando um arquivo dentro do diretório
+echo > C:\meu_diretorio\arquivo_exemplo.txt
+echo Arquivo "arquivo_exemplo.txt" criado.
+
+rem Exibindo o conteúdo do arquivo criado
+echo Exibindo o conteúdo de "arquivo_exemplo.txt":
+type C:\meu_diretorio\arquivo_exemplo.txt
+echo.
+
+rem Copiando o arquivo para outro diretório
+mkdir C:\outro_diretorio
+copy C:\meu_diretorio\arquivo_exemplo.txt C:\outro_diretorio\
+echo Arquivo "arquivo_exemplo.txt" copiado para "outro_diretorio".
+
+rem Movendo o arquivo copiado para o diretório original
+move C:\outro_diretorio\arquivo_exemplo.txt C:\meu_diretorio\
+echo Arquivo "arquivo_exemplo.txt" movido de "outro_diretorio" para "meu_diretorio".
+
+rem Renomeando o arquivo
+rename C:\meu_diretorio\arquivo_exemplo.txt arquivo_renomeado.txt
+echo Arquivo renomeado para "arquivo_renomeado.txt".
+
+rem Removendo o arquivo renomeado
+del C:\meu_diretorio\arquivo_renomeado.txt
+echo Arquivo "arquivo_renomeado.txt" removido.
+
+rem Removendo os diretórios
+rmdir C:\meu_diretorio
+rmdir C:\outro_diretorio
+echo Diretórios "meu_diretorio" e "outro_diretorio" removidos.
+
+pause
+
+
+
