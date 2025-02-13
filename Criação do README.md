@@ -127,6 +127,4 @@ __*Como rodar um arquivo Batch:*__
 
 
 
-...
 
-[Message clipped]  View entire message
