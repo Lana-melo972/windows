@@ -139,10 +139,18 @@ __Microsoft Visio:__ ferramenta robusta e completa para criação de diagramas e
 
 ## __*Imagens dos fluxogramas criados*__
 
-![Logo do GitHub](imagem1.png)
+__Fluxo de cadastro de usuário:__
+
+[![Logo do GitHub](imagem1.png)]
+
+*Depois da entrada dos dados, é feita uma validação, se esses dados são validos, vai ser exibido o acesso, mas se não forem validos, vai ser solicitado correção.*
+
+
+__Algoritmo para verificar se um número é par ou ímpar:__
 
 ![Logo do GitHub](imagem2.png)
 
+*Quando feita a entrada de dados, os números são divididos po 2, se o resultado da conta for igual a 0, o número é par, se o resultado não for igual a 0, é impar.*
 
 
 
