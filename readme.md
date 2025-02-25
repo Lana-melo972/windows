@@ -17,7 +17,7 @@ Um fluxograma é um diagrama que descreve um processo, sistema ou algoritmo de c
 
 
 
-- ### *Principais símbolos utilizados e seus significados.*
+- ### __*Principais símbolos utilizados e seus significados.*__
 
 __Os fluxogramas utilizam símbolos padronizados para representar algoritmos de forma visual, facilitando o entendimento da lógica por trás de um algoritmo.__
 
@@ -28,7 +28,7 @@ __Os fluxogramas utilizam símbolos padronizados para representar algoritmos de 
 -Facilitam o entendimento da lógica por trás de um algoritmo
 
 
-__Principais símbolos utilizados em fluxogramas__
+### __Principais símbolos utilizados em fluxogramas__
 
 
 -Início/Fim: representado por um retângulo arredondado, indicando o começo e término do fluxograma
@@ -151,6 +151,10 @@ __Algoritmo para verificar se um número é par ou ímpar:__
 ![Logo do GitHub](imagem2.png)
 
 *Quando feita a entrada de dados, os números são divididos po 2, se o resultado da conta for igual a 0, o número é par, se o resultado não for igual a 0, é impar.*
+
+## __Conclusão:__
+### os fluxogramas desempenham um papel crucial na estruturação e organização do trabalho no desenvolvimento de sistemas e processos. Eles são úteis para evitar falhas de comunicação, reduzir erros, otimizar processos e melhorar o entendimento geral entre as partes envolvidas.
+
 
 
 
