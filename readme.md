@@ -137,7 +137,11 @@ __Draw.io:__ plataforma online com interface intuitiva para criar fluxogramas e 
 
 __Microsoft Visio:__ ferramenta robusta e completa para criação de diagramas e fluxogramas, necessitando de instalação no computador
 
+## __*Imagens dos fluxogramas criados*__
+
 ![Logo do GitHub](imagem1.png)
+
+![Logo do GitHub](imagem2.png)
 
 
 
